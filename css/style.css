@@ -2,4 +2,9 @@ body {
   position: relative;
   padding-top: 50px;
 }
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
 

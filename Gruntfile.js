@@ -19,16 +19,16 @@ module.exports = function(grunt) {
             quality: 40
             },{
             name: "medium",
-            width: 320,
+            width: 360,
             quality: 40
             },{
             name: "large",
-            width: 640,
+            width: 420,
             suffix: "-1x",
-            quality: 40
+            quality: 70
             },{
             name: "large",
-            width: 1000,
+            width: 800,
             suffix: '-2x',
             quality: 40
           }]
