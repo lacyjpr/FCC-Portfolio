@@ -8,8 +8,7 @@ body {
 #about {
   color: white;
   background-image: url("https://dl.dropboxusercontent.com/u/50864049/Doors.jpg");
-  background-repeat: no-repeat;
-  background-color: orange;
+  background-size: 100% 100%;
 }
 #portfolio {
   color: white;
