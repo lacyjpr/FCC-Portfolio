@@ -2,9 +2,18 @@ body {
   position: relative;
   padding-top: 50px;
 }
-img {
-	max-width: 100%;
-	height: auto;
-	display: block;
+#big-picture {
+  background-color: black;
 }
-
+#about {
+  color: white;
+  background-image: url("https://dl.dropboxusercontent.com/u/50864049/Doors.jpg");
+  background-repeat: no-repeat;
+  background-color: orange;
+}
+#portfolio {
+  color: white;
+  background-image: url("https://dl.dropboxusercontent.com/u/50864049/Sunset.jpg");
+  background-size: 100% 100%;
+  background-color: black;
+}
