@@ -25,3 +25,6 @@ body {
 .portfolio-item:hover {
 	box-shadow: 10px 10px 10px black;
 }
+#about-me{
+	font-size: 1.5em;
+}
