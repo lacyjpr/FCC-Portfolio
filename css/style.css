@@ -16,3 +16,8 @@ body {
   background-size: 100% 100%;
   background-color: black;
 }
+#contact {
+	color: white;
+	background-image: url("https://dl.dropboxusercontent.com/u/50864049/Ocean.jpg");
+	background-size: 100% 100%;
+}
