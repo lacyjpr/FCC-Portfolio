@@ -21,3 +21,6 @@ body {
 	background-image: url("https://dl.dropboxusercontent.com/u/50864049/Ocean.jpg");
 	background-size: 100% 100%;
 }
+.portfolio-item:hover {
+	box-shadow: 10px 10px 10px black;
+}
