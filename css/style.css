@@ -4,6 +4,7 @@ body {
 }
 #big-picture {
   background-color: black;
+  cursor: help;
 }
 #about {
   color: white;
