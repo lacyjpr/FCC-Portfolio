@@ -31,16 +31,16 @@ body {
   #about {
     color: white;
     background-image: none;
-    background-color: purple;
+    background-color: dimgray;
   }
   #portfolio {
     color: white;
     background-image: none;
-    background-color: black;
+    background-color: cyan;
   }
   #contact {
     color: white;
     background-image: none;
-    background-color: blue;
+    background-color: black;
   }
 }
