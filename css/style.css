@@ -1,21 +1,20 @@
 body {
-  	position: relative;
-  	padding-top: 50px;
+  position: relative;
+  padding-top: 50px;
 }
 #big-picture {
-  	background-color: black;
-  	cursor: help;
+  cursor: help;
 }
 #about {
-  	color: white;
-  	background-image: url("https://dl.dropboxusercontent.com/u/50864049/Doors.jpg");
+  color: white;
+  background-image: url("https://dl.dropboxusercontent.com/u/50864049/Doors.jpg");
  	background-size: 100% 100%;
 }
 #portfolio {
-  	color: white;
-  	background-image: url("https://dl.dropboxusercontent.com/u/50864049/Sunset.jpg");
-  	background-size: 100% 100%;
-  	background-color: black;
+  color: white;
+  background-image: url("https://dl.dropboxusercontent.com/u/50864049/Sunset.jpg");
+  background-size: 100% 100%;
+  background-color: black;
 }
 #contact {
 	color: white;
@@ -28,3 +27,19 @@ body {
 #about-me{
 	font-size: 1.5em;
 }
+@media only screen and (max-width: 650px) {
+  #about {
+    color: white;
+    background-image: none;
+    background-color: red;
+  }
+  #portfolio {
+    color: white;
+    background-image: none;
+    background-color: black;
+  }
+  #contact {
+    color: white;
+    background-image: none;
+    background-color: blue;
+  }
