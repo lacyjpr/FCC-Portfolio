@@ -7,27 +7,30 @@ body {
 }
 #about {
   color: white;
-  background-image: url("https://dl.dropboxusercontent.com/u/50864049/Doors.jpg");
- 	background-size: 100% 100%;
+  background-image: url("https://dl.dropboxusercontent.com/u/50864049/portfolio/Doors.jpg");
+  background-size: 100% 100%;
 }
 #portfolio {
   color: white;
-  background-image: url("https://dl.dropboxusercontent.com/u/50864049/Sunset.jpg");
+  background-image: url("https://dl.dropboxusercontent.com/u/50864049/portfolio/Sunset.jpg");
   background-size: 100% 100%;
-  background-color: black;
+  
 }
 #contact {
-	color: white;
-	background-image: url("https://dl.dropboxusercontent.com/u/50864049/Ocean.jpg");
-	background-size: 100% 100%;
+  color: white;
+  background-image: url("https://dl.dropboxusercontent.com/u/50864049/portfolio/Ocean.jpg");
+  background-size: 100% 100%;
 }
 .portfolio-item:hover {
-	box-shadow: 10px 10px 10px black;
+  box-shadow: 10px 10px 10px black;
 }
 #about-me{
-	font-size: 1.5em;
+  font-size: 1.5em;
 }
 @media only screen and (max-width: 650px) {
+  #big-picture {
+    display: none;
+  }
   #about {
     color: white;
     background-image: none;
