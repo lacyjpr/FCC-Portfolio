@@ -26,6 +26,8 @@ body {
 }
 #about-me{
   font-size: 1.5em;
+  padding-top: 95px;
+  padding-bottom: 195px
 }
 @media only screen and (max-width: 650px) {
   #big-picture {
