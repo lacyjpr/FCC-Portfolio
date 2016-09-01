@@ -14,8 +14,7 @@ body {
   color: white;
   background-image: url("https://dl.dropboxusercontent.com/u/50864049/portfolio/Sunset.jpg");
   background-size: 100% 100%;
-  
-}
+ }
 #contact {
   color: white;
   background-image: url("https://dl.dropboxusercontent.com/u/50864049/portfolio/Ocean.jpg");
@@ -26,7 +25,14 @@ body {
 }
 #about-me{
   font-size: 1.5em;
-  padding-top: 70px;
+  padding-top: 50px;
+  padding-bottom: 200px;
+}
+.heading {
+  margin-top: 50px;
+}
+form {
+  padding-top: 50px;
   padding-bottom: 200px;
 }
 @media only screen and (max-width: 650px) {

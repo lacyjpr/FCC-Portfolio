@@ -50,8 +50,10 @@
 		<div id="about">
 		  <div class="row">
 			  <div class="col-md-12">
-				<h2 class="text-center">About Me<h2>
-			   </div>
+					<div class="heading">
+						<h2 class="text-center">About Me<h2>
+					</div>   
+				</div>
 			</div>
 		  
 		  <div class="row">
@@ -63,7 +65,7 @@
 
 				<div class="col-md-5 col-md-offset-1">
 					<p id="about-me">I'm a Web Developer in training living in Newport, Oregon. I've completed a Front-End Nanodegree at <a href="http://udacity.com" target="blank">Udacity</a>. I'm currently working through the curriculum at <a href="http://freecodecamp.com" target="blank_">Free Code Camp</a> with the goal of becoming a Full-Stack Web Developer. In my free time, I enjoy cycling, working on bicycles, reading, fly fishing and fly tying.</p> 
-			  	</div>
+				</div>
 			</div><!--row-->
 			
 
@@ -73,7 +75,9 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
-						<h2 class="text-center">Portfolio</h2>
+						<div class="heading">
+							<h2 class="text-center">Portfolio</h2>
+						</div>
 					</div>
 				</div>
 				
@@ -165,14 +169,39 @@
 		</div><!--portfolio-->
 
 		<div id="contact">
-			<div class="row">
-				<div class="col-md-12">
-					<h2 class="text-center">Contact</h2>
+			<div class="container">
+				
+				<div class="row">
+					<div class="col-md-12">
+						<div class="heading">
+							<h2 class="text-center">Contact</h2>
+						</div>
+					</div>
 				</div>
-			</div>
 
-		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-		</div>
+				<div class="row">
+					
+					<div class="col-md-6">
+						<form role="form" action="http://formspree.io/lacyjpr99@gmail.com" method="POST">
+							<input type="hidden" name="_subject" value="New submission!"/>
+							<div class="form-group">
+								<input type="text" class="form-control" name="name" placeholder="Name" required>
+							</div>
+							<div class="form-group">
+								<input type="email" class="form-control" name="_replyto" placeholder="Email" required>
+							</div>
+							<div class="form-group">
+								<textarea name="InputMessage" class="form-control" placeholder="Message" rows="3" required></textarea>
+							</div>
+							<input type="submit" name="submit" id="submit" value="Submit" class="btn btn-info pull-left"> 
+						</form>
+					</div>
+				
+				</div>	
+			
+			</div>
+		
+		</div>								
 
 		<!--Modal-->
 		<div class="modal fade" id="yaquina" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
