@@ -33,7 +33,20 @@ body {
 }
 form {
   padding-top: 50px;
-  padding-bottom: 200px;
+  padding-bottom: 150px;
+}
+ul {
+  text-align:center;
+}
+li {
+  display: inline-block;
+}
+i {
+  color: white;
+}
+.footer {
+  background-color: black;
+  color: white;
 }
 @media only screen and (max-width: 650px) {
   #big-picture {
@@ -42,16 +55,19 @@ form {
   #about {
     color: white;
     background-image: none;
-    background-color: dimgray;
+    background-color: #696969;
+  }
+  #about-me {
+    padding-bottom: 50px;
   }
   #portfolio {
     color: white;
     background-image: none;
-    background-color: blue;
+    background-color: #0099cc;
   }
   #contact {
     color: white;
     background-image: none;
-    background-color: black;
+    background-color: #3A3D3D;
   }
 }
