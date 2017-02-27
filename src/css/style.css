@@ -7,17 +7,17 @@ body {
 }
 #about {
   color: white;
-  background-image: url("/FCC-portfolio/images/Doors.jpg");
+  background-image: url("/FCC-Portfolio/images/Doors.jpg");
   background-size: 100% 100%;
 }
 #portfolio {
   color: white;
-  background-image: url("/FCC-portfolio/images/Sunset.jpg");
+  background-image: url("/FCC-Portfolio/images/Sunset.jpg");
   background-size: 100% 100%;
  }
 #contact {
   color: white;
-  background-image: url("/FCC-portfolio/images/Ocean.jpg");
+  background-image: url("/FCC-Portfolio/images/Ocean.jpg");
   background-size: 100% 100%;
 }
 .portfolio-item:hover {
