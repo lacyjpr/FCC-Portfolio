@@ -7,17 +7,17 @@ body {
 }
 #about {
   color: white;
-  background-image: url("https://dl.dropboxusercontent.com/u/50864049/portfolio/Doors.jpg");
+  background-image: url("/images/Doors.jpg");
   background-size: 100% 100%;
 }
 #portfolio {
   color: white;
-  background-image: url("https://dl.dropboxusercontent.com/u/50864049/portfolio/Sunset.jpg");
+  background-image: url("/images/Sunset.jpg");
   background-size: 100% 100%;
  }
 #contact {
   color: white;
-  background-image: url("https://dl.dropboxusercontent.com/u/50864049/portfolio/Ocean.jpg");
+  background-image: url("/images/Ocean.jpg");
   background-size: 100% 100%;
 }
 .portfolio-item:hover {
